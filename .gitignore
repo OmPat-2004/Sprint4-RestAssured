@@ -1,0 +1,10 @@
+/target/
+
+# TestNG reports
+/test-output/
+
+.idea/
+.classpath
+.project
+
+.settings/
