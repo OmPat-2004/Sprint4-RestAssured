@@ -1,0 +1,5 @@
+paymentId,paymentAmount,expectedStatus
+10001,8000,200
+10002,6000,200
+99999,4500,404
+10001,,400

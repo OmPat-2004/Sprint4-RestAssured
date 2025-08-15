@@ -1,0 +1,4 @@
+test_scenario,paymentMode,expectedStatus,test_description
+valid_mode,UPI,200,View all payments with payment mode UPI
+valid_mode,NETBANKING,200,View all payments with payment mode NETBANKING
+invalid_mode,CASH,204,View payments with non-existent payment mode

@@ -1,0 +1,5 @@
+paymentId,paymentAmount,paymentDesc,paymentDate,customerName,paymentStatus,paymentMode,expectedStatus
+10003,5000,Vegetables,01-01-2022,Peter,PAID,UPI,200
+10001,5500,Grocery,01-01-2025,John,PAID,UPI,400
+10004,2500,Books,,Ravi,PAID,NETBANKING,400
+10005,3000,Meds,,,,,400

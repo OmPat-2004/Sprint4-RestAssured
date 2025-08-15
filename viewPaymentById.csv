@@ -1,0 +1,4 @@
+test_scenario,paymentId,expectedStatus,test_description
+valid_id,10001,200,View payment with valid ID
+valid_id,10002,200,View payment with valid ID
+invalid_id,99999,204,View payment with non-existent ID

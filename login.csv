@@ -1,0 +1,3 @@
+﻿username,password,expectedStatus,test_description
+user1,pass123,200,Valid user login
+invalidUser,wrongPass,401,Invalid credentials test

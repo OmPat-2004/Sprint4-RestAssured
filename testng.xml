@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Payment API Test Suite">
+	<listeners>
+		<listener class-name="utils.ExtentReportListener" />
+	</listeners>
+	<test name="Payment APIs">
+		<classes>
+			<!-- Auth -->
+			<class name="auth.LoginTest" />
+
+			<!-- Payments -->
+			<class name="payments.ViewPaymentListTest" />
+			<class name="payments.ViewPaymentByIdTest" />
+			<class name="payments.ViewPaymentByModeTest" />
+			<class name="payments.AddPaymentTest" />
+			<class name="payments.UpdatePaymentAmountTest" />
+			<class name="payments.DeletePaymentTest" />
+			
+		</classes>
+	</test>
+</suite>
